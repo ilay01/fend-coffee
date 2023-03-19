@@ -256,6 +256,9 @@
   width: 100%;
   max-width: 1440px; }
 
+.imprint {
+  padding: 20px; }
+
 .navi {
   background-color: black; }
   .navi-list {
@@ -279,3 +282,6 @@
   .gallery__long-img {
     width: calc( (100vw - 60px) / 2);
     height: calc( calc( (100vw - 60px) / 2) * 1.7); }
+
+.ursprung {
+  padding: 20px; }
