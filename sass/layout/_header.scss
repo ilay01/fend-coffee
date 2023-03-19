@@ -57,3 +57,15 @@
     background-repeat: no-repeat;
 
 }
+
+.header-die-herkunft {
+    height: 50vh; // wenn keine Größe da ist, wird es nicht angezeigt
+    width: 100%;
+    background-image: url('../img/FEND-Coffee-beans-hand-2.png');
+    background-color: rgba($color-anthrazit, 0.3);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover; // Bild wird etwas verkleinert und passt sich der Größe gut an
+    background-repeat: no-repeat;
+
+}
