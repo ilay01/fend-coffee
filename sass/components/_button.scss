@@ -1,0 +1,25 @@
+
+.btn {
+
+    &,
+    &:link,
+    &:visited {
+
+        padding: 15px 50px 15px 50px;
+        box-sizing: border-box;
+        color: $color-white;
+        text-decoration: none;
+    }
+
+
+    &-black {
+        border-radius: 5px;
+        background-color: $color-anthrazit;
+        color: $color-white;
+        border: 3px solid $color-anthrazit;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+
+    }
+
+}
+

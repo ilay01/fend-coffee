@@ -1,0 +1,10 @@
+*, /* wichtig die pseudoclasses und elements miteinzubeziehen */
+*::after,
+*::before{
+    /* einfach weil einige Browser ihr Standard padding und margin hinzufügen
+    */
+    margin:0;
+    padding: 0;
+    box-sizing: inherit;
+
+}

@@ -1,0 +1,62 @@
+* {
+    font-family: 'Roboto';
+}
+
+// so stellst du sicher, dass Roboto im gesamten Web eingebunden und benutzt wird
+
+.heading-primary {
+    color: $color-white;
+    backface-visibility: hidden; // brauche ich das?
+    margin-bottom: 5rem; // Abstand zwischen Text und button vielleicht der falsche Ort 
+    line-height: 1.1;
+    font-size: 64px;
+    font-weight: 900;
+
+    &--main {
+        display: block; // damit es untereinander angezeigt wird
+        
+        
+    }
+
+    &--sub {
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+}
+
+.heading-secondary {
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 900;
+
+}
+
+.heading-tertiary {
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 900;
+
+
+    &--main {
+        display: block; // damit es untereinander angezeigt wird
+        
+        
+    }
+
+    &--sub {
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+}
+
+.body {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+}
+

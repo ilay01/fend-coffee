@@ -1,0 +1,59 @@
+.header {
+
+    height: 75vh; // wenn keine Größe da ist, wird es nicht angezeigt
+    width: 100%;
+    background-image: url('../img/FEND-Coffee-latte-art-3.png');
+    background-color: rgba($color-anthrazit, 0.3);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover; // Bild wird etwas verkleinert und passt sich der Größe gut an
+    background-repeat: no-repeat;
+
+    &__logo {
+        height: 3.5rem;
+        color: $color-white;
+
+        &-box {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+        }
+
+    }
+
+
+    &__menu {
+        height: 3.5rem;
+        color: $color-white;
+
+        &-box {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+        }
+
+    }
+
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+}
+
+
+.header-das-cafe {
+
+    height: 50vh; // wenn keine Größe da ist, wird es nicht angezeigt
+    width: 100%;
+    background-image: url('../img/FEND-Coffee-shop.png');
+    background-color: rgba($color-anthrazit, 0.3);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover; // Bild wird etwas verkleinert und passt sich der Größe gut an
+    background-repeat: no-repeat;
+
+}

@@ -1,0 +1,33 @@
+.image {
+    width: 240px;
+    position: relative;
+  
+    
+
+}
+
+// direkt die Image, no div
+.image-map {
+    // finally!
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.coffee-picture {
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+
+.icon {
+    height: 45px;
+    width: auto;
+}
+
+// div über dem Bild und den Div centern wir!
+.picture-box {
+    text-align: center;
+}
+

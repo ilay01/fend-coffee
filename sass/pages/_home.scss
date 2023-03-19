@@ -1,0 +1,104 @@
+.section-roesterei {
+    padding-left: 6.4%;
+    padding-right: 6.4%; // p tag ragt rüber! 
+    //position: absolute; NIE WIEDER MACHEN!
+    background-color: $color-white;
+    color: $color-anthrazit;
+}
+
+.section-entdecke-sorten {
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $color-white;
+    background-color: $color-anthrazit;
+    
+    
+
+    &-beschreibung {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    
+    
+    &-coffee-sorte {
+
+        background-color: $color-light-grey;
+        width: 100%; 
+
+        &-icon {
+            color: white;
+            padding: 1px;
+            height: 1rem;
+            width: auto;
+        }
+
+    }
+
+    
+    &-preis {
+        color: $color-medium-grey;
+    }
+
+ 
+
+}
+
+
+
+.section-herkunft {
+    padding: 6.4%;
+    height: 50vh; // wenn keine Größe da ist, wird es nicht angezeigt
+    width: auto;
+
+    background-image: url('../img/FEND-Coffee-bags-2.png');
+    background-color: rgba(26, 26, 26, 0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover; // Bild wird etwas verkleinert und passt sich der Größe gut an
+    background-repeat: no-repeat;
+
+    color: $color-white;
+    text-align: center;
+
+
+  &-box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+  }
+
+
+
+
+}
+
+.section-das-steckt-drin {
+
+    padding: 6.4%;
+    text-align: center; // text in der Mitte
+    color: $color-anthrazit;
+    background-color: $color-white;
+
+
+
+}
+
+.section-map {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.footer {
+    padding: 6.4%;
+    background-color: $color-anthrazit;
+    
+    width: 100%;
+    max-width: 1440px;
+
+}

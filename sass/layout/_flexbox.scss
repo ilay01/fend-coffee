@@ -1,0 +1,52 @@
+.flex-container-text {
+// bisschen rumspielen aber ich weiß immer noch nicht was genau was macht! 
+    display: flex; //or inline-flex
+    flex-direction: row;
+    justify-content: flex-start; // right one
+    align-items: center;
+    align-content: space-between;
+    //background-color: rebeccapurple;
+
+}
+
+.flex-container-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-item {
+    //background-color: aqua;
+    text-align: left;
+    margin-right: 17px; // right one
+    
+}
+
+.flex-container-coffee{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between; // ist das richtig
+
+
+}
+
+.flex-item-coffee {
+    
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    width:  calc((100% - 20px)/2); 
+}
+
+.flex-container-icons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flex-item-icon {
+    text-align: center;
+    
+}

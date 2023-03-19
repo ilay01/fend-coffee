@@ -1,0 +1,15 @@
+{
+  "name": "fend-own-version",
+  "version": "1.0.0",
+  "description": "coffee website my own",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+
+  },
+  "author": "ilay",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

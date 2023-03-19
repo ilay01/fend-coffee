@@ -1,0 +1,10 @@
+
+.navi {
+    background-color: black;
+    &-list{
+        background-color: azure;
+        &-item {
+            color: red;
+        } 
+    }
+}
