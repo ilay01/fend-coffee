@@ -7,25 +7,20 @@
 }
 
 .section-entdecke-sorten {
-    
     padding-left: 20px;
     padding-right: 20px;
     color: $color-white;
     background-color: $color-anthrazit;
     
-    
-
     &-beschreibung {
         margin: 0;
         padding: 0;
         text-align: left;
     }
     
-    
     &-coffee-sorte {
-
         background-color: $color-light-grey;
-        width: 100%; 
+        width: 100%;
 
         &-icon {
             color: white;
@@ -33,16 +28,11 @@
             height: 1rem;
             width: auto;
         }
-
     }
 
-    
     &-preis {
         color: $color-medium-grey;
     }
-
- 
-
 }
 
 
@@ -51,7 +41,8 @@
     padding: 6.4%;
     height: 50vh; // wenn keine Größe da ist, wird es nicht angezeigt
     width: auto;
-
+    color: $color-white;
+    text-align: center;
     background-image: url('../img/FEND-Coffee-bags-2.png');
     background-color: rgba(26, 26, 26, 0.5);
     background-blend-mode: overlay;
@@ -59,49 +50,33 @@
     background-size: cover; // Bild wird etwas verkleinert und passt sich der Größe gut an
     background-repeat: no-repeat;
 
-    color: $color-white;
-    text-align: center;
-
-
-  &-box {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-
-  }
-
-
-
-
+    &-box {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
 }
 
 .section-das-steckt-drin {
-
     padding: 6.4%;
     text-align: center; // text in der Mitte
     color: $color-anthrazit;
     background-color: $color-white;
-
-
-
 }
 
 .section-map {
-    padding-left: 20px;
-    padding-right: 20px;
+    //padding gibt es aber immer noch?
     width: 100%;
 }
 
 .footer {
     padding: 6.4%;
     background-color: $color-anthrazit;
-    
     width: 100%;
-    max-width: 1440px;
-
 }
+
 .imprint {
     padding: 20px;
 }

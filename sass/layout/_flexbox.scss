@@ -6,7 +6,6 @@
     align-items: center;
     align-content: space-between;
     //background-color: rebeccapurple;
-
 }
 
 .flex-container-image {
@@ -17,23 +16,18 @@
 .flex-item {
     //background-color: aqua;
     text-align: left;
-    margin-right: 17px; // right one
-    
+    margin-right: 17px; // right one 
 }
 
 .flex-container-coffee{
-    
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     gap: 20px;
     justify-content: space-between; // ist das richtig
-
-
 }
 
 .flex-item-coffee {
-    
     text-align: center;
     color: #fff;
     font-size: 40px;
@@ -43,10 +37,8 @@
 .flex-container-icons {
     display: flex;
     justify-content: space-around;
-
 }
 
 .flex-item-icon {
     text-align: center;
-    
 }
