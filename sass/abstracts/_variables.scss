@@ -12,7 +12,12 @@ $color-light-grey: #E9E9E9;
 // Größen
 
 //Gallery
-$mobile-img-width: calc( (100vw - 60px) / 2 );
-$desktop-img-width: calc( (100vw - 100px) / 4 );
+$mobile-img-width-gallery: calc( (100vw - 60px) / 2 );
+$desktop-img-width-gallery: calc( (100vw - 100px) / 4 );
+
+// normale Bilder 
+
+$mobile-img-width: calc(100vw * 0.64); 
+$desktop-img-width: calc(100vw * 0.42);
 
 

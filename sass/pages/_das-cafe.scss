@@ -3,7 +3,7 @@
     &-flexbox {
         width: 100%;
         /* height_gallery = 3 * 20px + 2x height short image + 2 * height long image */
-        height: calc( 3 * 20px + 2 * #{$mobile-img-width} * 0.9 + 2 * #{$mobile-img-width} * 1.7 );
+        height: calc( 3 * 20px + 2 * #{$mobile-img-width-gallery} * 0.9 + 2 * #{$mobile-img-width-gallery} * 1.7 );
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -11,11 +11,11 @@
     }
     
     &__short-img {
-        width: $mobile-img-width;
-        height: calc( #{$mobile-img-width} * 0.9);
+        width: $mobile-img-width-gallery;
+        height: calc( #{$mobile-img-width-gallery} * 0.9);
     }
     &__long-img {
-        width: $mobile-img-width;
-        height: calc( #{$mobile-img-width} * 1.7 );
+        width: $mobile-img-width-gallery;
+        height: calc( #{$mobile-img-width-gallery} * 1.7 );
     }
 }

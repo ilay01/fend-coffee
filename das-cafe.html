@@ -8,14 +8,35 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
 </head>
+
 <header class="header-das-cafe">
     <div class="header__logo-box">
       <img src="img/Logo.svg" alt="Logo" class="header__logo">
     </div>
+
+    <!--
     <div class="header__menu-box">
-      <img src="img/Burger Menu.png" alt="Menu" class="header__menu">
-      <a href="navi.html"> Navi </a>
+      <a href="navi.html"> <img src="img/Burger Menu.svg" alt="Menu" class="header__menu"> </a>
     </div>
+  -->
+
+  <!-- Entweder schaust du dir das Tutorial nochmal an oder du codest was anderes -->
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+      <label for ="navi-toggle" class="navigation__button"> 
+        <a href="navi.html"> <img src="img/Burger Menu.svg" alt="Menu" class="header__menu"> </a>
+      </label>
+      <div class ="navigation__background"> &nbsp; </div>
+      <nav class="navigation__nav">
+          <ul class="navigation__list">
+              <li class="navigation__item"> <a href="das-cafe.html" class="navigation__link heading-tertiary">  Das Cafe </a> </li>
+              <li class="navigation__item"> <a href="die-herkunft.html" class="navigation__link heading-tertiary">  Herkunft </a> </li>
+              <li class="navigation__item"> <a href="#" class="navigation__link heading-tertiary"> Shop </a> </li>
+          </ul>
+      </nav>
+  </div>
+
+
 </header>
 <body>
   <section class="section-roesterei">

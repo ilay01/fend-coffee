@@ -5,19 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index Page</title>
     <link rel="stylesheet" href="/css/style.css" />
-
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
-
   </head>
   <body>
     <header class="header">
       <div class="header__logo-box">
         <img src="img/Logo.svg" alt="Logo" class="header__logo">
       </div>
-
       <div class="header__menu-box">
-        <img src="img/Burger Menu.png" alt="Menu" class="header__menu">
-        <a href="navi.html"> Navi </a>
+        <a href="navi.html"> <img src="img/Burger Menu.svg" alt="Menu" class="header__menu"> </a>
       </div>
 
       <div class="header__text-box">
@@ -56,35 +52,35 @@
         </p>
 
         
-        <div> 
+        <div class="u-margin-bottom-big"> 
           <img src="img/FEND-coffee-plant.png" alt="coffee shop" class=" image u-margin-bottom-big">  
           <!-- image muss hier in klasse vorkommen, damit eigenschafteen von image angewandt werden-->
         </div>
 
       </section>
 
-      <!-- bis hier her ist es einigermaßen alles in Ordnung-->
-
       <section class="section-entdecke-sorten"> 
-                  <h3 class="heading-tertiary u-margin-bottom-big u-margin-top-big">
-            Entdecke unsere Kaffee Sorten
-          </h3>
-        <!-- die section ist plötzlich oben gelandet???-->
+       
+        <!-- es funktionicht nicht-->
+        <div class="u-margin-bottom-big u-margin-top-big">  
+        <h3 class="heading-tertiary"> Entdecke unsere Kaffee Sorten </h3>
+        </div> 
 
         <div class="flex-container-coffee">
-
-          <article class="flex-item-coffee"> 
+          
+          <article class="flex-item-coffee">
             <div class="section-entdecke-sorten-coffee-sorte">
               <img src="img/FEND_Coffee_Costa-Rica 2.png" class="section-entdecke-sorten-coffee-sorte">
             </div>
-            
+            <div class="section-entdecke-sorten-beschreibung">
               <span class="heading-primary--sub"> Costa Rica </span>
-              <span class="section-entdecke-sorten-preis body " > 6,90€ – 26,90€ </span>
+              <span class="section-entdecke-sorten-preis body" > 6,90€ – 26,90€ </span>
               <section>
                 <img src="img/Icon Kaffee Bohnen.svg" class="section-entdecke-sorten-coffee-sorte-icon">
                 <img src="img/Icon French Press.svg" class="section-entdecke-sorten-coffee-sorte-icon">
                 <img src="img/Icon Kaffee Schaufel.svg"class="section-entdecke-sorten-coffee-sorte-icon"> 
               </section>
+            </div>
           </article>
 
           <article class="flex-item-coffee">
@@ -130,8 +126,14 @@
                 <img src="img/Icon Kaffee Schaufel.svg"class="section-entdecke-sorten-coffee-sorte-icon"> 
               </div>
             </div>
-           </div>
           </article>
+
+        </div>
+          
+        <!-- Button ragt heraus aus der Section-->
+          <a href="#" class="u-margin-top-big btn btn-black-white"> alle Produkte </a>
+
+
       </section>
 
 

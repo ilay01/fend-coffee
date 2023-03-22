@@ -21,5 +21,13 @@
 
     }
 
+    &-black-white {
+        border-radius: 5px;
+        background-color: $color-anthrazit;
+        color: $color-white;
+        border: 3px solid $color-white;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    }
+
 }
 

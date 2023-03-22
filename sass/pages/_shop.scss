@@ -1,0 +1,29 @@
+.section-shop-entdecke-sorten {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $color-anthrazit;
+    
+    
+    &-beschreibung {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        color: $color-anthrazit;
+    }
+    
+    &-coffee-sorte {
+        background-color: $color-light-grey;
+        width: 100%;
+
+        &-icon {
+            color: $color-anthrazit;
+            padding: 1px;
+            height: 1rem;
+            width: auto;
+        }
+    }
+
+    &-preis {
+        color: $color-medium-grey;
+    }
+}
