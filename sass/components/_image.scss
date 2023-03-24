@@ -1,6 +1,5 @@
 .image {
     width: $mobile-img-width;
-    position: relative;
     @media (min-width: 900px) {
         width: $desktop-img-width;
       }
@@ -10,10 +9,7 @@
 
 // direkt die Image, no div
 .image-map {
-    // finally!
     width: 100%;
-    height: auto;
-    text-align: center;
 
 }
 
@@ -28,8 +24,4 @@
     width: auto;
 }
 
-// div über dem Bild und den Div centern wir!
-.picture-box {
-    text-align: center;
-}
 

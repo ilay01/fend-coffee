@@ -57,6 +57,15 @@
 .u-margin-top-big {
   margin-top: 2.5rem !important; }
 
+.center {
+  text-align: center; }
+
+.left {
+  text-align: left; }
+
+.right {
+  text-align: right; }
+
 .btn, .btn:link, .btn:visited {
   padding: 15px 50px 15px 50px;
   box-sizing: border-box;
@@ -78,16 +87,13 @@
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25); }
 
 .image {
-  width: calc(100vw * 0.64);
-  position: relative; }
+  width: calc(100vw * 0.64); }
   @media (min-width: 900px) {
     .image {
       width: calc(100vw * 0.42); } }
 
 .image-map {
-  width: 100%;
-  height: auto;
-  text-align: center; }
+  width: 100%; }
 
 .coffee-picture {
   width: 200px;
@@ -97,9 +103,6 @@
 .icon {
   height: 45px;
   width: auto; }
-
-.picture-box {
-  text-align: center; }
 
 input[type="text"] {
   padding: 12px;
@@ -120,7 +123,7 @@ input[type="text"] {
   background-size: cover;
   background-repeat: no-repeat; }
   .header__logo {
-    height: 3.5rem;
+    width: 3.5rem;
     color: #FFFFFF; }
     .header__logo-box {
       position: absolute;
@@ -183,13 +186,11 @@ input[type="text"] {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  gap: 20px;
-  justify-content: space-between; }
+  gap: 20px; }
 
 .flex-item-coffee {
   text-align: center;
   color: #fff;
-  font-size: 40px;
   width: calc((100% - 20px)/2); }
 
 .flex-container-icons {
@@ -237,8 +238,7 @@ input[type="text"] {
     .section-entdecke-sorten-coffee-sorte-icon {
       color: white;
       padding: 1px;
-      height: 1rem;
-      width: auto; }
+      width: 1rem; }
   .section-entdecke-sorten-preis {
     color: #737373; }
 
@@ -441,5 +441,4 @@ input[type="text"] {
   width: 327px;
   margin: auto; }
   .produkt-detail {
-    width: 100%;
-    height: auto; }
+    width: 100%; }

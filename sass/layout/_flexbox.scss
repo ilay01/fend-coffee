@@ -24,13 +24,11 @@
     flex-wrap: wrap;
     width: 100%;
     gap: 20px;
-    justify-content: space-between; // ist das richtig
 }
 
 .flex-item-coffee {
     text-align: center;
     color: #fff;
-    font-size: 40px;
     width:  calc((100% - 20px)/2); 
 }
 
