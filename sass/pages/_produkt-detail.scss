@@ -1,0 +1,12 @@
+.produkt {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $color-craftpaper;
+    width: 327px;
+    margin: auto;
+
+    &-detail {
+        width: 100%;
+        height: auto;
+    }
+}

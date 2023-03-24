@@ -5,14 +5,13 @@
 .heading-primary {
   color: #FFFFFF;
   backface-visibility: hidden;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   line-height: 1.1;
   font-size: 64px;
   font-weight: 900; }
   .heading-primary--main {
     display: block; }
   .heading-primary--sub {
-    display: block;
     font-weight: 400;
     font-size: 18px; }
 
@@ -35,8 +34,7 @@
 .body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.3; }
+  font-size: 14px; }
 
 *,
 *::after,
@@ -84,7 +82,7 @@
   position: relative; }
   @media (min-width: 900px) {
     .image {
-      width: §desktop-img-width; } }
+      width: calc(100vw * 0.42); } }
 
 .image-map {
   width: 100%;
@@ -102,6 +100,15 @@
 
 .picture-box {
   text-align: center; }
+
+input[type="text"] {
+  padding: 12px;
+  background-color: #E9E9E9;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #1A1A1A; }
 
 .header {
   height: 75vh;
@@ -218,7 +225,8 @@
   padding-left: 20px;
   padding-right: 20px;
   color: #FFFFFF;
-  background-color: #1A1A1A; }
+  background-color: #1A1A1A;
+  box-sizing: border-box; }
   .section-entdecke-sorten-beschreibung {
     margin: 0;
     padding: 0;
@@ -237,7 +245,6 @@
 .section-herkunft {
   padding: 6.4%;
   height: 50vh;
-  width: auto;
   color: #FFFFFF;
   text-align: center;
   background-image: url("../img/FEND-Coffee-bags-2.png");
@@ -245,9 +252,10 @@
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: relative; }
   .section-herkunft-box {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -425,3 +433,13 @@
       width: auto; }
   .section-shop-entdecke-sorten-preis {
     color: #737373; }
+
+.produkt {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #D7BE9D;
+  width: 327px;
+  margin: auto; }
+  .produkt-detail {
+    width: 100%;
+    height: auto; }
