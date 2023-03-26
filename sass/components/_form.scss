@@ -3,8 +3,114 @@ input[type="text"] {
     background-color: $color-light-grey;
     box-sizing: border-box;
     text-decoration: none;
-
+    width: 87vw;
     outline: 0;
     border-width: 0 0 2px;
     border-color: $color-anthrazit
   }
+
+
+  input[type="mail"] {
+    padding: 12px;
+    background-color: $color-white;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 87vw;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: $color-anthrazit
+  }
+
+  input[type="number"] {
+    padding: 12px;
+    background-color: pink;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 87vw;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: $color-anthrazit;
+
+    &::placeholder {
+      color: red;
+    }
+  }
+
+
+  input[type="message"] {
+    padding: 12px;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 87vw;
+    height: 190px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: $color-anthrazit
+  }
+
+
+
+/* Style the button */
+.dropdown {
+width: 87vw;;  
+}
+
+
+.dropdown {
+  display: inline-block;
+  padding: 5px 5px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown::before {
+  content: url("img/up button white.svg");
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+/* Style the dropdown content */
+.dropdown-content {
+  border-radius: 5px;
+  border-style: solid 1px;
+  color: $color-anthrazit;
+  display: none;
+  background-color: $color-white;
+  min-width: 87vw;
+  z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #4CAF50;
+}
+
+input[type="checkbox"]:checked:before {
+  content: '\2714';
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 18px;
+}
+
+
+
+

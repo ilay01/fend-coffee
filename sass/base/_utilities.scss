@@ -14,6 +14,21 @@
 .u-margin-top-big {
     margin-top: 2.5rem !important; //größe stimmt nicht
 }
+.u-margin-top-small {
+    margin-top: 1.25rem !important; //größe stimmt nicht
+}
+
+.u-padding-bottom-big {
+    padding-bottom: 2.5rem !important;
+}
+
+.u-padding-bottom-small {
+    padding-bottom: 1.25rem !important;
+}
+
+.u-padding-top-big {
+    padding-top: 2.5rem !important; //größe stimmt nicht
+}
 .center {
     text-align: center;
 }
@@ -25,3 +40,36 @@
 .right {
     text-align: right;
 }
+
+.black {
+    color: $color-anthrazit;
+}
+
+.item-middle {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.padding-seite {
+padding-left: 24px;
+padding-right: 24px;
+}
+
+.middle-items {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+  
+
+  
