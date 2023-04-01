@@ -101,17 +101,6 @@
   flex-direction: column;
   align-items: center; }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.left-item {
-  order: 1; }
-
-.right-item {
-  order: 2; }
-
 .btn, .btn:link, .btn:visited {
   padding: 15px 50px 15px 50px;
   box-sizing: border-box;
@@ -327,6 +316,18 @@ input[type="checkbox"]:checked:before {
 
 .flex-item-icon {
   text-align: center; }
+
+.flex-warenkorb {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: auto;
+  justify-content: space-evenly; }
+
+.flex-warenkorb-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 .grid-footer-container {
   width: 100%;

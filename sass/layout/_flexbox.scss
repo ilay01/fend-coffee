@@ -40,3 +40,18 @@
 .flex-item-icon {
     text-align: center;
 }
+
+.flex-warenkorb {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    justify-content: space-evenly;
+
+}
+
+.flex-warenkorb-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
