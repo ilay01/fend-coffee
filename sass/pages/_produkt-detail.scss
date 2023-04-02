@@ -5,15 +5,28 @@
     width: 327px;
     margin: auto;
 
-    &-detail {
+    &-bild {
         width: 100%;
         
     }
 }
 
-.produkt {
+.warenkorb-bild {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $color-craftpaper;
+    width: 140px;
+    padding: 10px;
+}
 
+.produkt {
     padding-left: 20px;
     padding-right: 20px;
 }
 
+.bestell-uebersicht {
+    background-color: $color-anthrazit;
+    color: $color-white;
+    padding-left: 10px;
+    padding-right: 10px;
+}

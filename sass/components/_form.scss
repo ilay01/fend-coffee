@@ -48,68 +48,55 @@ input[type="text"] {
     border-color: $color-anthrazit
   }
 
+    
+    ul {
+    list-style: none;
+    background: #333;
+    text-align: center;
+    width: 85%; 
+    margin: auto;
+    }
+    
+    ul li {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    }
+    
+    ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    }
+    
+    ul li ul.dropdown li {
+    display: block;
+    background: #333;
+    margin: 2px 0px;
+    }
+
+    ul li 
+    ul.dropdown {
+    background: #00FF8C;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    }
+
+    ul li a:hover {
+    background: #222;
+    }
+
+    .b:hover .dropdown{
+    display: block;
+    }
 
 
-/* Style the button */
-.dropdown {
-width: 87vw;;  
-}
 
 
-.dropdown {
-  display: inline-block;
-  padding: 5px 5px;
-  text-align: center;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown::before {
-  content: url("img/up button white.svg");
-  display: inline-block;
-  margin-right: 10px;
-}
-
-
-/* Style the dropdown content */
-.dropdown-content {
-  border-radius: 5px;
-  border-style: solid 1px;
-  color: $color-anthrazit;
-  display: none;
-  background-color: $color-white;
-  min-width: 87vw;
-  z-index: 1;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: inline-block;
-}
-
-input[type="checkbox"] {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  width: 20px;
-  height: 20px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  outline: none;
-  cursor: pointer;
-}
-
-input[type="checkbox"]:checked {
-  background-color: #4CAF50;
-}
-
-input[type="checkbox"]:checked:before {
-  content: '\2714';
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  line-height: 18px;
-}
 
 
 

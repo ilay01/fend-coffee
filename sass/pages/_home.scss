@@ -4,6 +4,12 @@
     //position: absolute; NIE WIEDER MACHEN!
     background-color: $color-white;
     color: $color-anthrazit;
+
+    @media (min-width: $desktop-breakpoint) {
+        position: absolute;
+        bottom: calc(100% + 1rem);
+    }
+
 }
 
 .section-entdecke-sorten {
@@ -56,6 +62,11 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+    }
+
+    @media (min-width: $desktop-breakpoint) {
+        position: absolute;
+        bottom: calc(100% + 1rem);
     }
 }
 
